@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  min-height: 110vh;
+  
+    background: linear-gradient(45deg, #e1e7fd , #6ddcf3 20% , #9baaf1 50% , #ffcbb0 80%);
+}
+
+#test {
+  margin-top: 50px;
+  margin-bottom: 10px;
+  margin-right: 40px;
+  margin-left: 60px;
+ width: 330px;
+ box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+}
+
+#desc{
+  width: 270px;
+  
+}
+
+#cards {
+  margin-top: 70px;
+
+  
+}
+
+
+
+
+
+
+.navbar .nav-link {
+  color: rgb(255, 255, 255);
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.navbar .navbar-brand {
+  color: rgb(255, 255, 255);
+}
+
+
+/* Change navbar styling on scroll */
+.navbar.active {
+  background: #fff;
+  box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar.active .nav-link {
+  color: #555;
+}
+
+.navbar.active .nav-link:hover,
+.navbar.active .nav-link:focus {
+  color: #555;
+  text-decoration: none;
+}
+
+.navbar.active .navbar-brand {
+  color: #555;
+}
+
+
+/* Change navbar styling on small viewports */
+@media (max-width: 991.98px) {
+  .navbar {
+      background: #fff;
+  }
+
+  .navbar .navbar-brand, .navbar .nav-link {
+      color: #555;
+  }
+}
+
+
+
+
+
+
+#item{
+  color: rgb(0, 0, 0);
+}
+#food{
+  color: rgb(0, 0, 0);
+}
+
+.p-4{
+  background: linear-gradient(45deg, #f4f6ff , #e8e9ff 80%);
+  
+}
+

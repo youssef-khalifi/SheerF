@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sheer</title>
+  <link rel="icon" type="image/x-icon" href="C:\Users\youssef\Downloads\cd4aa4d2232847868e09226da394c58a.png">
+  <link rel="stylesheet" href="Donation.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/album/">
+
+    
+
+  
+
+<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  
+
+
+    <!-- header -->
+    <header class="header">
+      <nav class="navbar navbar-expand-lg fixed-top py-3">
+          <div class="container"><a href="#" class="navbar-brand text-uppercase font-weight-bold">Sheer</a>
+
+              
+              <div id="navbarSupportedContent" class="collapse navbar-collapse">
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a href="#" class="nav-link text-uppercase font-weight-bold" id="add">Add</a></li>
+                      <li class="nav-item active"><a href="#" class="nav-link text-uppercase font-weight-bold" id="home">Home <span class="sr-only">(current)</span></a></li>
+                      <li class="nav-item"><a href="#" class="nav-link text-uppercase font-weight-bold" id="about">About</a></li>
+                      <li class="nav-item"><a href="#" class="nav-link text-uppercase font-weight-bold" id="profil">Profil</a></li>
+                      <li class="nav-item"><a href="#" class="nav-link text-uppercase font-weight-bold" id="donations">Donations</a></li>
+                      <li class="nav-item"><a href="#" class="nav-link text-uppercase font-weight-bold" id="logout">Log_out</a></li>
+                      
+                  </ul>
+              </div>
+          </div>
+      </nav>
+  </header>
+
+  <br>
+  <br>
+  <br>
+  <br>
+ 
+
+
+  <div class="container" id="container">
+
+
+    <div class="posts-list row ">
+  
+      
+  
+  
+    </div>
+  
+  </div>
+   
+    
+
+
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">UPDATE DONATION</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form name="myForm">
+          <div class="form-group">
+            <label for="recipient-name" class="col-form-label">Name:</label>
+            <input type="text" class="form-control" id="name" placeholder="Name" autocomplete="off"> 
+          </div>
+          <div class="form-group">
+            <label for="recipient-name" class="col-form-label">Quantite:</label>
+            <input type="number" class="form-control" id="quantite" placeholder="Quantite" autocomplete="off">
+          </div>
+
+      <div class="form-group">
+        <label for="recipient-name" class="col-form-label">Donation's Condition:</label>
+      <select class="form-select" aria-label="Default select example" id="condition" >
+        <option selected>Choose  Condition</option>
+        <option value="New">New</option>
+        <option value="Good">Good</option>
+        <option value="Not Bad">Not Bad</option>
+</select>
+
+      </div>
+
+     
+
+          <div class="form-group">
+            <label for="message-text" class="col-form-label">Description:</label>
+            <textarea class="form-control" id="description" placeholder="Description" autocomplete="off"></textarea>
+          </div>
+
+          <div class="form-group">
+            <label for="recipient-name" class="col-form-label"> Share With :</label>
+          <select class="form-select" aria-label="Default select example" id="choix" >
+            <option selected>Choose  Option</option>
+            <option value="number">Number</option>
+            <option value="email">Email</option>
+           
+    </select>
+    
+          </div>
+         
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-warning" id="send">Update</button>
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+
+    
+
+
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+  <script src="sweetalert2@11.js"></script>
+  <script src="Donation.js"></script>
+
+</body>
+</html>
